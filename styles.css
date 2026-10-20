@@ -15,19 +15,19 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 6vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
     background: linear-gradient(
         90deg,
-        rgba(248, 243, 234, 0.95),
-        rgba(248, 243, 234, 0.75)
+        rgba(213, 0, 43, 1),
+        rgba(213, 0, 43, 1)
     );
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border-bottom: 0.1vh solid rgba(234, 223, 206, 0.8);
+    /*border-bottom: 0.1vh solid rgba(234, 223, 206, 0.8);*/
     box-shadow: 0 0.4vh 1.2vh rgba(0,0,0,0.06);
 }
 
@@ -46,9 +46,9 @@ body{
     padding: 0.8vh 1.5vh;
     border-radius: 999px;
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 2.1vh;
+    font-size: 4vh;
     font-weight: 700;
-    color: #8f1d22;
+    color: #ffffff;
     background: none;
     border: none;
     transition: all 0.2s ease;
@@ -56,15 +56,20 @@ body{
 
 .navigationBar ul li:hover{
     cursor: pointer;
-    background-color: rgba(193, 18, 31, 0.08);
-    color: #c1121f;
+    /*background-color: rgba(18, 164, 193, 0.08);
+    color: rgba(255, 255, 255, 0.304)*/
 }
 
 .navigationBar ul li.currentPage{
-    background-color: #c1121f;
-    color: #f8f3ea;
+    /*background-color: #8b0009;*/
+    /*Looks weird with the images - Kaden*/
+    color: #ffffff;
     padding: 0.8vh 2vh;
 }
+
+
+
+
 
 .welcome{
     color: #ffffff;
@@ -563,10 +568,14 @@ body{
     line-height: 1.7;
 }
 
+
+
+
+
 .footerHolder{
     width: 100%;
     height: 8vh;
-    background-color: #c1121f50;
+    background-color: rgba(213, 0, 43, 1);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -577,7 +586,7 @@ body{
     margin-bottom: 2vh;
     justify-content: center;
     width: 40%;
-    margin-left: 30%;
+    margin-left: 63%;
 }
 
 .footer ul{
@@ -592,11 +601,26 @@ body{
     list-style-type: none;
     padding-left: 0vh;
     margin-left: 0vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 3vh;
+    font-weight: 700;
+    color: #ffffff;
+    background: none;
+}
+
+ .footer ul li:hover{
+    cursor: pointer;
 }
 
 .footer ul li img{
     height: 4vh;
 }
+
+
+
+
+
+
 
 .mapPage{
     width: 90%;

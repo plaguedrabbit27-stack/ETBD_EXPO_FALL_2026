@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-32Y0ZCCJEY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-32Y0ZCCJEY');
+
+    //I just copied the "map.html" file so that there would be a page here at least to go to and test stuff. Nothing is right here - Kaden
+
+
+
+
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livestream | ETBD Expo</title>
+    <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="img/expo-logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navigationBar">
+        <ul>
+            <li onclick="pageLocation('index')">
+                <img src="img/Home_Button.png" alt="Home" style="width: 106px; height: 60px;">
+            </li>
+            <li onclick="pageLocation('map')">MAP</li>
+            <li onclick="pageLocation('students')">EXPLORE</li>
+            <li onclick="pageLocation('about')">ABOUT</li>
+            <li class="currentPage" onclick="pageLocation('live')">
+                <img src="img/Livestream.png" alt="Livestream" style="width: 250px; height: 55px;">
+            </li>
+        </ul>
+    </div>
+
+    <main class="mapPage">
+        <div class="mapHeader">
+            <h1>NOTHING HERE IS RIGHT! I JUST COPIED THE MAP PAGE SO THERE IS A PAGE TO TEST STUFF HERE! THIS'LL ALSO BE THE LIVESTREAM PAGE!</h1>
+            <p>- Kaden</p>
+        </div>
+
+        <div class="mapWrapper">
+<div class="mapContainer activeMap" id="expoMap">
+  <img src="img/OnlineMap.png" alt="ETBD Expo map" class="floorMap">
+
+    <!-- Map pins disabled
+    <button class="mapPin pin1" onclick="openMapCard('annas228')"></button>
+    <button class="mapPin pin2" onclick="openMapCard('welcomeTable')"></button>
+    <button class="mapPin pin3" onclick="openMapCard('ims452')"></button>
+    <button class="mapPin pin4" onclick="openMapCard('ims489')"></button>
+    <button class="mapPin pin5" onclick="openMapCard('ims440430')"></button>
+    <button class="mapPin pin6" onclick="openMapCard('activityFirst')"></button>
+    <button class="mapPin pin7" onclick="openMapCard('bvks228')"></button>
+    <button class="mapPin pin8" onclick="openMapCard('ims317')"></button>
+    <button class="mapPin pin9" onclick="openMapCard('artistAlley')"></button>
+    <button class="mapPin pin10" onclick="openMapCard('ims461')"></button>
+    <button class="mapPin pin11" onclick="openMapCard('ims213')"></button>
+    <button class="mapPin pin12" onclick="openMapCard('seatingGoodies')"></button>
+    <button class="mapPin pin13" onclick="openMapCard('activity204')"></button>
+    <button class="mapPin pin14" onclick="openMapCard('ims487')"></button>
+    <button class="mapPin pin15" onclick="openMapCard('foodDrinks')"></button>
+    -->
+</div>
+        </div>
+    </main>
+
+    <!-- Map info popup disabled
+    <div class="mapInfoPopup hidden" id="mapInfoPopup">
+        <div class="mapInfoBox">
+            <button class="closeInfoButton" onclick="closeMapCard()">✕</button>
+            <h2 id="mapInfoTitle">Location</h2>
+            <p id="mapInfoDescription">Description</p>
+        </div>
+    </div>
+    -->
+
+
+
+    <!-- bottom of the page stuff -->
+    <div class="footerHolder">
+        <div class="footer">
+            <ul>
+                <li onclick="goEmail()">
+                    Got Questions? Contact us at ETBD@miamioh.edu
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

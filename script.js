@@ -9,6 +9,10 @@ function goInstagram(){
 function goFacebook(){
     window.open("https://www.facebook.com/MiamiOHETBD/");
 }
+function goEmail(){
+    window.open("https://mail.google.com/mail/?view=cm&fs=1&to=ETBD%40miamioh.edu");
+}
+
 
 /* 
 // const mapLocations = {
