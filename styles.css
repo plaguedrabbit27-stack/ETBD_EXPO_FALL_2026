@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    background-image: url(img/background.png);
+    background-image: url(img/real.desktop.png);
     background-size: fill;
     background-position: center;
     min-height: 100vh;
-    background-color: #c1121f;
+    background-color: #000000;
     padding-top: 9vh;
     padding-bottom: 10vh;
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -22,7 +22,7 @@ body{
     z-index: 1000;
     background: linear-gradient(
         90deg,
-        rgba(213, 0, 43, 1),
+        #16D9D3,
         rgba(213, 0, 43, 1)
     );
     backdrop-filter: blur(10px);
@@ -78,12 +78,12 @@ body{
     text-align: center;
     width: 100%;
     margin-top: 18vh;
-    font-size: 4vh;
-    line-height: 5.5vh;
+    font-size: 7vh;
+    line-height: 14vh;
 }
 
 .welcome span{
-    font-size: 10vh;
+    font-size: 19vh;
     font-weight: 900;
 }
 
@@ -91,6 +91,8 @@ body{
     font-size: 2vh;
     font-family: 'Barlow Semi Condensed', sans-serif;
     animation: linear weMakeCoolStuff infinite 4s;
+    margin-top: -7vh;
+    margin-bottom: 2vh;
 }
 
 @keyframes weMakeCoolStuff{
@@ -360,10 +362,10 @@ body{
 .students{
     width: 80%;
     margin-left: 10%;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Barlow Semi Condensed', sans-serif;
     margin-top: 10vh;
-    background-color: #f8f3ea;
+    background: linear-gradient(to right, #16D9D3, #c1121f);
     border-radius: 1vh;
     padding-bottom: 1vh;
     padding-top: 2vh;
@@ -466,7 +468,7 @@ body{
     width: 90%;
     max-width: 700px;
     margin: 14vh auto 10vh auto;
-    text-align: left; 
+    text-align: center; 
 }
 
 .student .artistAlley::before{
@@ -572,10 +574,12 @@ body{
 
 
 
-.footerHolder{
+.footerHolder {
     width: 100%;
     height: 8vh;
-    background-color: rgba(213, 0, 43, 1);
+
+    background: linear-gradient(to right, #16D9D3, #D5002B);
+
     position: fixed;
     bottom: 0;
     left: 0;
@@ -655,8 +659,8 @@ body{
 .mapContainer{
     position: relative;
     width: 100%;
-    max-width: 1100px;
-    background-color: #ffffff;
+    max-width: 720px;
+    background: linear-gradient(135deg, #16D9D3, #D5002B);
     border-radius: 1vh;
     padding: 1.5vh;
     box-sizing: border-box;
@@ -765,8 +769,8 @@ body{
 .ctaButton{
     margin-top: 3vh;
     padding: 1.2vh 3vh;
-    background-color: #f8f3ea;
-    color: #c1121f;
+    background-color: #c1121f;
+    color: #f8f3ea;
     border: 0.1vh solid #f8f3ea;
     font-weight: 800;
     border-radius: 2vh;
@@ -818,7 +822,7 @@ body{
 
 .aboutHeader h1{
     margin-bottom: 1vh;
-    font-size: 4vh;
+    font-size: 6.0vh;
 }
 
 .aboutHeader p{
@@ -830,18 +834,22 @@ body{
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #000000;
     border-radius: 1vh;
     padding: 2vh;
     box-sizing: border-box;
-    border: 1px solid #eadfce;
+    border: 1px solid transparent;
+border-image: linear-gradient(90deg, #16D9D3, #D5002B) 1;
 }
 
 .aboutCard{
+
     margin-bottom: 2vh;
-    font-size: 2.2vh;
+    font-size: 3.2vh;
     line-height: 1.6;
-    color: #c1121f;
+    color: #fbf7f7;
+    text-align: center;
+      font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .aboutCTA{
@@ -849,8 +857,8 @@ body{
     margin-bottom: 10vh;
     text-align: center;
     padding: 1vh 2vh;
-    background-color: #f8f3ea;
-    color: #c1121f;
+    background-color: #ffffff;
+    color: #000000;
     border: 0.1vh solid #f8f3ea;
     border-radius: 1vh;
     font-weight: 800;
@@ -861,8 +869,8 @@ body{
 }
 
 .aboutCTA:hover{
-    background-color: #c1121f;
-    color: #ffffff;
+    background-color: #16D9D3;
+    color: rgb(25, 25, 25);
 }
 
 .information {
@@ -951,7 +959,7 @@ body{
    padding: 10px 15px;
    cursor: pointer;
    border-radius: 50%;
-   font-size: 18px;
+   font-size: 10px;
    z-index: 10;
 }
 
@@ -1024,11 +1032,12 @@ body{
 
 
 .homeLinksCard {
+    display: none;
     width: 85%;
     max-width: 550px;
     margin: 4vh auto 3vh auto;
-    background-color: rgba(248, 243, 234, 0.95);
-    border: 0.1vh solid #eadfce;
+    background-color: #00000000;
+    border: 0.1vh solid #00000000;
     border-radius: 2vh;
     padding: 2.5vh;
     box-sizing: border-box;
@@ -1079,3 +1088,4 @@ body{
     background-color: #8f1d22;
     transform: translateY(-0.1vh);
 }
+
