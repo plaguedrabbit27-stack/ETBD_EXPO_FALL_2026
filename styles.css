@@ -652,6 +652,7 @@ body{
 .mapWrapper{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-bottom: 12vh;
 }
@@ -660,6 +661,8 @@ body{
     position: relative;
     width: 100%;
     max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
     background: linear-gradient(135deg, #16D9D3, #D5002B);
     border-radius: 1vh;
     padding: 1.5vh;
@@ -842,9 +845,30 @@ body{
 border-image: linear-gradient(90deg, #16D9D3, #D5002B) 1;
 }
 
+.liveContainer{
+    width: 100%;
+    max-width: 950px;
+    margin: 5vh auto 0 auto;
+    background-color: #000000;
+    border-radius: 1vh;
+    padding: 2vh;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+border-image: linear-gradient(90deg, #16D9D3, #D5002B) 1;
+}
 .aboutCard{
 
     margin-bottom: 2vh;
+    font-size: 3.2vh;
+    line-height: 1.6;
+    color: #fbf7f7;
+    text-align: center;
+      font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.liveCard{
+
+    margin-bottom: 1vh;
     font-size: 3.2vh;
     line-height: 1.6;
     color: #fbf7f7;
